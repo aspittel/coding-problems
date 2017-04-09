@@ -1,5 +1,7 @@
 """
 Checks to see if one string is a permutation of another one. 
+
+Problem from Cracking the Coding Interview.
 """
 def check_if_perumutation(str_1, str_2):
 	"""

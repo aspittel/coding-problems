@@ -1,5 +1,7 @@
 """
 Check if a string contains only unique characters.
+
+Problem from Cracking the Coding Interview.
 """
 
 def check_if_unique(str):
