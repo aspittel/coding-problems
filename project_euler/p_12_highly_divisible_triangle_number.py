@@ -10,7 +10,7 @@ def find_triangle_term(n):
 	return n * (n-1) / 2
 
 
-def get_n_of_divisors(n):
+def get_count_of_divisors(n):
 	factors = set()
 	for i in xrange(1, int(n**0.5)):
 		if n % i == 0:
@@ -19,7 +19,7 @@ def get_n_of_divisors(n):
 	return len(factors)
  
 
-def find_triangle_with_divisors(n):
+def find_triangle_with_divisors_greater_than(n):
  	check = 3
  	divisors = 2
  	while divisors < n:
@@ -28,4 +28,4 @@ def find_triangle_with_divisors(n):
 		check += 1
 	return triangle
 
-print(find_triangle_with_divisors(500))
+print(find_triangle_with_divisors_greater_than(500))
