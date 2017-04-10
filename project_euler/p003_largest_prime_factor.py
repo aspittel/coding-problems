@@ -4,8 +4,7 @@ Solution in Python
 
 https://projecteuler.net/problem=3
 
-There has to be a better way of doing this -- works pretty fast for
-small numbers, but stores too much data for large ones.
+Takes 0.7s on my computer.
 """
 
 def list_of_primes(n):
