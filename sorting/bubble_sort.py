@@ -10,7 +10,7 @@ def bubble_sort(arr):
         swaps = 0
         for j in range(0, n-1):
             if arr[j] > arr[j+1]:
-                a[j], a[j+1] = a[j+1], a[j]
+                arr[j], arr[j+1] = arr[j+1], arr[j]
                 swaps += 1
         all_swaps += swaps
         if swaps == 0:
