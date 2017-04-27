@@ -1,5 +1,7 @@
 """
-Zeros a row or column of a matrix if there is a zero in it.
+Zeros a row or column of a matrix if there is at least one zero in that row or column.
+
+From Cracking the Coding Interview.
 """
 
 def zero_matrix(matrix):
