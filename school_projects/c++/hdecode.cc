@@ -2,7 +2,6 @@
 hdecode.cc
 Ali Spittel
 Lab 7 Huffman
-12/12/14
 
 This program decodes characters from an input file. It creates a tree from the
 input file as specified. It then decodes for each letter based on the binary
