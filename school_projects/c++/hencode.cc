@@ -2,7 +2,6 @@
 hencode.cc
 Ali Spittel
 Lab 7 Huffman
-12/12/14
 
 This program encodes characters from an input file. It creates a tree from the
 characters by combining nodes with the lowest character counts in the inputted
